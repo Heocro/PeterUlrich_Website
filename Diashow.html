@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peter Ulrich</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="Style.css">
+		<script language="javascript" type="text/javascript" src="Scripts/Diashow.js"></script>
+	</head>
+	<body>
+		<div class="stripe"></div>
+		<div class="overlay">
+			<div class="diashowDiv">
+				<div class="closeButtonDiv">
+					<img src="Images/Controls/Close.png" onclick="closeDiashow()" class="closeButton">
+				</div>
+				<img id="image" class="diashowImage">
+				<p id="imageInfo"></p>
+				<div class="diashowControlDiv">
+					<img src="Images/Controls/First.png" onclick="showFirstImage()">
+					<img src="Images/Controls/Previous.png" onclick="showPreviousImage()">
+					<img src="Images/Controls/Next.png" onclick="showNextImage()">
+					<img src="Images/Controls/Last.png" onclick="showLastImage()">
+				</div>
+			</div>
+			<p class="footer">Website created by Silvan Wyss, 2015</p>
+		</div>
+		<script type="text/javascript">
+			initialize();
+		</script>
+	</body>
+</html>

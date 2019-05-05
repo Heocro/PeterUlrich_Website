@@ -1,0 +1,229 @@
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+body {
+	margin: 0px;
+	background-color: #505050;
+	font-family: Arial;
+	font-size: 14px;
+	color: white;
+	overflow-y: scroll;
+}
+
+h1 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+h2 {
+	margin: 0px;
+	color: white;
+	font-size: 16px;
+}
+
+.closeButton {
+	float: right;
+	width: 30px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
+}
+
+.closeButtonDiv {
+	overflow: hidden;
+}
+
+.containerDiv {
+	overflow: hidden;
+	padding: 10px;
+}
+
+.currentLink {
+	color: white;
+}
+
+.diashowControlDiv {
+	overflow: hidden;
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+
+.diashowControlDiv img {
+	float: left;
+	margin-right: 100px;
+	width: 30px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
+}
+
+.diashowDiv {
+	margin: auto;
+	width: 780px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: white;
+	padding: 10px;
+	background-color: white;
+	color: black;
+}
+
+.diashowDiv p {
+	margin: 10px;
+	text-align: center;
+}
+
+.diashowImage {
+	margin: auto;
+	width: auto;
+	max-width: 780px;
+	height: 400px;
+}
+
+.footer {
+	margin-bottom: 10px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.horizontalLine {
+	margin-bottom: 5px;
+	height: 1px;
+	background-color: orange;
+}
+
+.mainDiv {
+	margin: auto;
+	width: 800px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: white;
+	background-color: #202020;
+}
+
+.leftDiv {
+	float: left;
+	width: 200px;
+	margin-right: 10px;
+}
+
+.link {
+	color: orange;
+}
+
+.link, .currentLink {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.link:hover, .currentLink:hover {
+	color: white;
+}
+
+.overlay {
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+.photosDiv  {
+	overflow: hidden;
+}
+
+.photosDiv img {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	width: 160px;
+}
+
+.photosDiv img:hover {
+	cursor: pointer;
+}
+
+.pufferDiv {
+	float: left;
+	margin-right: 10px;
+	width: 150px;
+	height: 10px;
+}
+
+.rightDiv {
+	float: left;
+	width: 546px;
+}
+
+.sponsorDiv {
+	overflow: hidden;
+	margin-top: 30px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: white;
+}
+
+.sponsorDiv img {
+	float: left;
+	margin-right: 10px;
+	width: 150px;
+}
+
+.sponsorDiv div {
+	float: left;
+}
+
+.sponsorLogo {
+	height: 75px;
+}
+
+.sponsorLogo:hover {
+	cursor: pointer;
+}
+
+.stripe {
+	margin-top: 300px;
+	height:	100px;
+	background-color: orange;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-color: white;
+	border-bottom-color: white;
+}
+
+.navigationDiv, .subContainerDiv, .rightDiv {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #606060;
+	background-color: #303030;
+}
+
+.closeButton:hover, .diashowControlDiv img:hover {
+	cursor: pointer;
+	border-color: orange;
+}

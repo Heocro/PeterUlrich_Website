@@ -1,0 +1,17 @@
+Diashow:
+
+-Eine Diashow-Serie kann jeweils für eine separate Menge von Bildern erstellt werden.
+
+-Die Bilder einer Diashow-Serie müssen alle in einem Ordner gespeichert sein, der sich direkt im Ordner Images befindet.
+
+-Die Bilder einer Diashow-Serie müssen folgendermassen benannt sein:
+ image1.jpg, image2.jpg, image3.jpg,...
+
+-Für eine neue Diashow-Serie muss in der Datei Scripts/Diashow.js die Funktion getImageCount() erweitert werden.
+ Die Funktion getImageCount() gibt die Anzahl Bilder jeder Diashow-Serie zurück.
+ Die Implementierung in der Funktion getImageCount() ist für jede Diashow-Serie analog.
+
+-Das n-te Bild einer Diashow-Serie kann mit ROOT/Diashow.html&DIRECTORY&n&PREVIOUS_PAGE aufgerufen werden
+
+-Bsp. Der folgende Link ruft online von der Seite index.html das 5. Bild aus der Diashow-Serie WM_2010 auf:
+ http://www.peterulrich.ch/Diashow.html?WM_2010&5&index

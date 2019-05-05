@@ -1,0 +1,11 @@
+Sponsorenlogo:
+
+-In der Seitenleiste rechts befindet sich ein Sponsorenlogo, das beim Draufklicken auf ein anderes zufällig gewähltes Sponsorenlogo gewechselt wird.
+
+-Die Sponsorenlogos in der Seitenleiste rechts sind unabhängig davon, welche Sponsoren auf der Seite Sponsoren.html aufgelistet sind.
+
+-Folgendermassen, kann ein weiteres solches Sponsorenlogo hinzugefügt werden.
+ Das Sponsorenlogo muss im Ordner Images/SponsorPool gespeichert werden mit der nächsten Nummer im Dateinamen (SponsorX.jpg).
+ Die Funktion applyRandomSponsorLogo() in der Datei Scripts/Sponsor.js muss angepasst werden.
+ In der Funktion applyRandomSponsorLogo() kommt der Ausdruck (Math.floor(Math.random() * N) + 1) vor
+ ...N muss der Anzahl Bilder im Ordner Images/SponsorPool entsprechen.
